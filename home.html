@@ -7,13 +7,144 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>System Monitoring</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loading-bar.css"/>
+<script type="text/javascript" src="loading-bar.js"></script>
 </head>
 <body>
-   <Span>
+    <div id="navbar">
+        <Span>
         <div id="clockview" class="clockbox"></div>
          <i id="logo" class="fa fa-wifi"></i>
          <i id="logo1" class="fa fa-battery"></i>
-</span>
+</span></div>
+<section>
+<div class="wrapper">
+        <div class="box a">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="60"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn" type="button">Memory</button>
+          <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p></p>
+                </div>
+              
+              </div>
+              
+        </div>
+        <div class="box b">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="85"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn1" type="button">Network</button>
+          <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p></p>
+                </div>
+              
+              </div>
+              
+        </div>
+        <div class="box c">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="50"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn4" type="button">I/O Device</button>
+          <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p></p>
+                </div>
+              
+              </div>
+              
+        </div>
+        <div class="box d">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="70"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn5"  type="button">CPU</button>
+          <div id="myModal5" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                        <span id="spanclose" onclick="close()" class="close">&times;</span>
+                  <p> 
+                      <pre>
+Processor Intel(R)
+Core(TM) i5-2450M CPU @ 2.50GHz, 
+2501 Mhz, 
+2 Core(s),
+S4 Logical Processor(s)
+                        </pre>
+                    </p>
+                    
+                </div>
+              
+              </div>
+              
+        </div>
+        <div class="box e">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="100"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn2" type="button">Graphics</button>
+          <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p></p>
+                </div>
+              
+              </div>
+              
+        </div>
+        <div class="box f">
+            <div
+            class="ldBar label-center"
+            style="width:50%;height:50%;margin:auto"
+            data-value="75"
+            data-preset="circle"
+          ></div>
+          <button id="myBtn3" type="button">Battery</button>
+          <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p></p>
+                </div>
+              
+              </div>
+              
+        </div>
+      </div>
+    </section>
+
 </body>
 <script src="app.js"></script>
 </html>
