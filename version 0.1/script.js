@@ -7,8 +7,6 @@ function display_page(page_id){
     if(rollOut[rollOut.length-1]==page_id)
         return null
     rollOut[roll++] = page_id 
-   
-   console.log(rollOut)
     var page_no = document.querySelectorAll('.page')
         for(var i=0;i<page_no.length;i++){
             page_no[i].style.display = 'none'
@@ -32,3 +30,5 @@ function display_page(page_id){
         }
         menu_no[menu_id].classList.add('color-border')
     }
+var re = require()
+

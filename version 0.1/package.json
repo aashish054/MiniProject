@@ -1,0 +1,15 @@
+{
+  "name": "sem7project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loading-bar.js",
+  "dependencies": {
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "002 059",
+  "license": "ISC"
+}
