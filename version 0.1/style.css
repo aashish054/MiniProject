@@ -23,3 +23,6 @@
 .page{
     display: none;
 }
+.page:nth-child(1){
+    display: block;
+}
