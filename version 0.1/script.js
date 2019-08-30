@@ -30,5 +30,5 @@ function display_page(page_id){
         }
         menu_no[menu_id].classList.add('color-border')
     }
-var re = require()
+
 
