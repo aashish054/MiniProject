@@ -5,7 +5,7 @@
     height: 80vh;
     list-style: none;
     font-weight: bold;
-
+    
 }
 .menu li{
     margin-bottom: 15px; 
@@ -22,7 +22,13 @@
 }
 .page{
     display: none;
+    opacity: 0;
+    position: absolute;
+
 }
 .page:nth-child(1){
     display: block;
+}
+.col-10{
+    overflow: hidden;
 }
