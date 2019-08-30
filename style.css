@@ -60,6 +60,7 @@ section{
 
 /* Modal Content */
 .modal-content {
+  display: block;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
