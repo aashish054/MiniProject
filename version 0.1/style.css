@@ -20,3 +20,6 @@
     cursor: pointer;
     color: white;
 }
+.page{
+    display: none;
+}
