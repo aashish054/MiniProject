@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    list-style: none;
+    font-weight: bold;
+
+}
+.menu li{
+    margin-bottom: 15px; 
+    width: 100%;
+}
+.menu li .menu_title {
+    
+    transition: 0.1s;
+}
+.menu li .menu_title:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+    color: white;
+}
