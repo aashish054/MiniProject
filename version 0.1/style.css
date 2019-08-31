@@ -8,12 +8,16 @@
     
 }
 .menu li{
-    margin-bottom: 15px; 
+    margin-bottom: 40px; 
     width: 100%;
+    position: relative;
 }
 .menu li .menu_title {
     cursor: pointer;
     transition: 0.1s;
+    position: absolute;
+    padding:10px 5px 0 5px;
+  
 }
 .menu li .menu_title:hover{
     border-bottom: 3px solid white;
@@ -24,6 +28,7 @@
     display:none ;
     top: 0;
     left: 0;
+    text-align: center
 }
 .page:nth-child(1){
     display: block;

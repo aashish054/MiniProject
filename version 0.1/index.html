@@ -15,11 +15,11 @@
   <div class="col-2 bg-danger" style="height: 100vh">
     <ul class="menu">
        
-      <li class="menu_item"><span class="hr"><span class="menu_title color-border" onclick="display_page('0')">HOME</span></span></li>
-      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('1')">Processor</span></span></li>
-      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('2')">Storage</span></span></li>
-      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('3')">Network</span></span></li>
-      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('4')">About</span></span></li>
+      <li class="menu_item"><span class="hr"><span class="menu_title color-border" onclick="display_page('0')" onmouseover="menu_in(this)" onmouseout="menu_out(this)">HOME</span></span></li>
+      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('1')" onmouseover="menu_in(this)" onmouseout="menu_out(this)">Processor</span></span></li>
+      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('2')" onmouseover="menu_in(this)" onmouseout="menu_out(this)">Storage</span></span></li>
+      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('3')" onmouseover="menu_in(this)" onmouseout="menu_out(this)">Network</span></span></li>
+      <li class="menu_item"><span class="hr"><span class="menu_title" onclick="display_page('4')" onmouseover="menu_in(this)" onmouseout="menu_out(this)">About</span></span></li>
     </ul>
 
   </div>
@@ -66,3 +66,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </html>
+<script>
+  menu_animation = 'swing'
+ function menu_in(menu_id){
+        menu_id.classList.add('d-none')
+        menu_id.classList.add('animated')
+        menu_id.classList.add(menu_animation)
+        menu_id.classList.add('infinite')
+        menu_id.classList.add('d-block')
+    }
+    function menu_out(menu_id){
+        menu_id.classList.add('d-none')
+        menu_id.classList.remove('animated')
+        menu_id.classList.remove(menu_animation)
+        menu_id.classList.remove('infinite')
+        menu_id.classList.add('d-block')
+    }
+
+
+</script>
