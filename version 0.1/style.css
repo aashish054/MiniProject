@@ -23,10 +23,12 @@
 .page{
     position: absolute;
     display:none ;
+    top: 0;
+    left: 0;
 }
 .page:nth-child(1){
     display: block;
-    background: yellow;    
+ 
 }
 .col-10{
     overflow: hidden;
