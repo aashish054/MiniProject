@@ -2,6 +2,7 @@ var rollOut = new Array()
 rollOut[0] = 0
 roll = 1 
 function display_page(page_id){
+    display_menu(page_id)
     if(rollOut[rollOut.length-1]==page_id)
         return null
     rollOut[roll++] = page_id 
