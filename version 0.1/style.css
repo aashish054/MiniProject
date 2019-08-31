@@ -21,13 +21,12 @@
     color: white;
 }
 .page{
-    display: none;
-    opacity: 0;
     position: absolute;
-
+    display:none ;
 }
 .page:nth-child(1){
     display: block;
+    background: yellow;    
 }
 .col-10{
     overflow: hidden;
