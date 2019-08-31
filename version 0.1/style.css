@@ -12,12 +12,11 @@
     width: 100%;
 }
 .menu li .menu_title {
-    
+    cursor: pointer;
     transition: 0.1s;
 }
 .menu li .menu_title:hover{
     border-bottom: 3px solid white;
-    cursor: pointer;
     color: white;
 }
 .page{
@@ -32,4 +31,8 @@
 }
 .col-10{
     overflow: hidden;
+}
+.color-border{
+    border-bottom: 3px solid white;
+    color: white;
 }
