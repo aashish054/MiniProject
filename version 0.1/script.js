@@ -18,8 +18,7 @@ function display_page(page_id){
     page_no[rollOut[rollOut.length-1]].classList.add('rollIn')
     page_no[rollOut[rollOut.length-1]].style.display = 'block'
     page_no[rollOut[rollOut.length-2]].style.display = 'block'
-     
-        
+      }
       
    
 
@@ -31,5 +30,3 @@ function display_page(page_id){
         }
         menu_no[menu_id].classList.add('color-border')
     }
-
-
